@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "613453056258",
+    "project_id": "userlist-project-eef24",
+    "storage_bucket": "userlist-project-eef24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613453056258:android:6880b1244ea446dc92da1b",
+        "android_client_info": {
+          "package_name": "com.example.userlist_projects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613453056258-4k2b671v6bn298f9ba3qb2h7a0t8qqao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZLEQIMSbD1dMeHosePMHa_rN2Q8VxQxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613453056258-4k2b671v6bn298f9ba3qb2h7a0t8qqao.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "613453056258-jsg5v8opg26alp9jhrl607vi6pu8guno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.userlistProjects"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
