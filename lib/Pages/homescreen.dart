@@ -12,6 +12,7 @@ import 'package:userlist_projects/Model/usermodel.dart';
 import 'package:userlist_projects/Pages/adduser.dart';
 import 'package:userlist_projects/Pages/postitem.dart';
 import 'package:userlist_projects/Pages/userdetails.dart';
+import 'package:userlist_projects/Pages/userprofile.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -117,6 +118,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                     )
                                   ]);
                             });
+                      }),
+                      ListTile(
+                      leading: const Icon(Icons.person),
+                      title: const Text("Profie"),
+                      onTap: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>UserProfile()));
                       }),
                 ],
               ),

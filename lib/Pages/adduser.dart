@@ -188,8 +188,7 @@ class _AdduserState extends State<Adduser> {
       return 'Password must containes atleast one capital letter,' +
           '\n' +
           'one lowercase letter,one special charcter';
-    } else if (value.length != 9) {
-      return "Please length atleast 8 character";
+    
     } else {
      
       return null;
